@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - background
+  - wavedb
+  - ship
+  - wavelv
   - 
   - 
   - 
@@ -41,3 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 2946134473
+    locked: 0
+  - name: wave1
+    uniqueID: 2515481913
+    locked: 0
+  - name: ship
+    uniqueID: 987434715
+    locked: 0
+  - name: wave2
+    uniqueID: 148964027
+    locked: 0
+  m_RenderingLayers:
+  - Default
