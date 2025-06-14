@@ -6,7 +6,7 @@ public class MainMenuController : MonoBehaviour
     private bool isButtonTrue;
     public void StartGame()
     {
-        SceneManager.LoadScene("SceneOne");
+        SceneManager.LoadScene("One_Scene");
 
     }
     public void QuitGame()
