@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108886ed1ab08424abd092fea7bcfe9b, type: 3}
+  m_Name: ShipThreeCells
+  m_EditorClassIdentifier: 
+  width: 3
+  height: 1
+  shipIcon: {fileID: 21300000, guid: 7522b255eec20e948a99d42e47900b90, type: 3}

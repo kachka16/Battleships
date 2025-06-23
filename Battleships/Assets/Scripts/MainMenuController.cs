@@ -3,14 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    private bool isButtonTrue;
-    public void StartGame()
+ 
+    public void NextScene()
     {
-        SceneManager.LoadScene("One_Scene");
-
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void BackScene()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

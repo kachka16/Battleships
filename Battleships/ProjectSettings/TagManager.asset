@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - boxGrid
+  - OneCells
+  - TwoCells
+  - ThreeCells
+  - FourCells
+  - ShipGrid
+  - Ship
   layers:
   - Default
   - TransparentFX
@@ -15,8 +22,8 @@ TagManager:
   - wavedb
   - ship
   - wavelv
-  - 
-  - 
+  - slot
+  - ships
   - 
   - 
   - 
