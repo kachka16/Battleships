@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using System;
 
-public class FieldShip : MonoBehaviour, IUnit
+public class FieldShip : MonoBehaviour
 {
     public Vector3 GetPosition()
     {
